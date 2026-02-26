@@ -80,7 +80,7 @@ nav a:hover {
     transform: scale(1) translateX(0px) translateY(0px);
   }
   100% {
-    transform: scale(1.06) translateX(-10px) translateY(3px);
+    transform: scale(1.06) translateX(-100px) translateY(3px);
   }
 }
 /* ========================= */
