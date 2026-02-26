@@ -224,30 +224,33 @@ nav a:hover {
     letter-spacing: 6px;
   }
 
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px 24px;
+    padding: 0 20px;
+  }
+
   nav a {
-    margin: 0 12px;
     font-size: 13px;
+    margin: 0;
   }
 
   /* HOME */
   .moon-container {
-    width: 80vw;
+    width: 92vw;
     max-width: none;
   }
 
   .series-info {
-    margin-top: 6vh;
+    margin-top: 40px;
     padding: 0 20px;
   }
 
   .series-title {
     font-size: 18px;
     letter-spacing: 6px;
-  }
-
-  .series-subtitle {
-    font-size: 22px;
-    letter-spacing: 8px;
   }
 
   .series-status {
