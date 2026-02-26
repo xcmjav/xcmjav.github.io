@@ -66,23 +66,20 @@ nav a:hover {
   width: 60vw;
   max-width: 900px;
   overflow: hidden;
+  display: flex;
+  justify-content: flex-end; /* desplaza la luna a la derecha */
 }
 
 .moon {
   width: 100%;
-  display: block;
-  animation: slowZoom 55s ease-in-out infinite alternate;
+  animation: slowZoom 35s linear infinite;
 }
 
+/* Deriva lenta y casi imperceptible */
 @keyframes slowZoom {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1.05);
-  }
+  from { transform: scale(1); }
+  to { transform: scale(1.06); }
 }
-
 
 /* ========================= */
 /* TEXT */
