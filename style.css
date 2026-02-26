@@ -1,18 +1,20 @@
-/* Reset */
+/* RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* BASE */
 body {
   background-color: #000;
   color: #fff;
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
-/* Header */
+/* HEADER */
 header {
   width: 100%;
   padding: 40px 0 20px 0;
@@ -21,15 +23,16 @@ header {
 
 .logo {
   font-size: 18px;
-  letter-spacing: 6px;
-  margin-bottom: 25px;
+  letter-spacing: 8px;
+  margin-bottom: 28px;
 }
 
 nav a {
   color: #fff;
   text-decoration: none;
-  margin: 0 20px;
-  font-size: 16px;
+  margin: 0 24px;
+  font-size: 15px;
+  letter-spacing: 1px;
   transition: opacity 0.3s ease;
 }
 
@@ -37,7 +40,66 @@ nav a:hover {
   opacity: 0.5;
 }
 
-/* Series layout */
+/* ---------------------- */
+/* HOME */
+/* ---------------------- */
+
+.home {
+  height: calc(100vh - 120px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MOON */
+
+.moon-container {
+  width: 28vw;
+  max-width: 420px;
+  min-width: 260px;
+  overflow: hidden;
+}
+
+.moon {
+  width: 100%;
+  animation: slowZoom 45s linear infinite;
+}
+
+/* Cinematic slow drift */
+@keyframes slowZoom {
+  from { transform: scale(1); }
+  to { transform: scale(1.06); }
+}
+
+/* TEXT */
+
+.series-info {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.series-title {
+  font-size: 20px;
+  letter-spacing: 8px;
+}
+
+.series-subtitle {
+  font-size: 30px;
+  letter-spacing: 10px;
+  margin-top: 14px;
+}
+
+.series-status {
+  font-size: 13px;
+  opacity: 0.5;
+  margin-top: 18px;
+}
+
+/* ---------------------- */
+/* GENERIC SERIES PAGE */
+/* ---------------------- */
+
 .series {
   display: flex;
   flex-direction: column;
@@ -56,53 +118,4 @@ nav a:hover {
 .series-word {
   font-size: 36px;
   letter-spacing: 4px;
-}
-
-/* HOME */
-
-.home {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.moon-container {
-  width: 320px;
-  overflow: hidden;
-}
-
-.moon {
-  width: 100%;
-  animation: slowZoom 45s linear infinite;
-}
-
-@keyframes slowZoom {
-  from { transform: scale(1); }
-  to { transform: scale(1.06); }
-}
-
-/* TEXT */
-
-.series-info {
-  margin-top: 60px;
-  text-align: center;
-}
-
-.series-title {
-  font-size: 22px;
-  letter-spacing: 6px;
-}
-
-.series-subtitle {
-  font-size: 28px;
-  letter-spacing: 8px;
-  margin-top: 10px;
-}
-
-.series-status {
-  font-size: 14px;
-  opacity: 0.6;
-  margin-top: 12px;
 }
