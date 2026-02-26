@@ -268,6 +268,36 @@ nav a:hover {
 }
 
 /* ========================= */
+/* MOVING IMAGES */
+/* ========================= */
+
+.moving-page {
+  width: 100%;
+}
+
+.film {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+}
+
+.film video {
+  max-width: 75vw;
+  max-height: 70vh;
+  object-fit: contain;
+}
+
+.film-title {
+  margin-top: 50px;
+  font-size: 18px;
+  letter-spacing: 6px;
+  opacity: 0.6;
+}
+
+/* ========================= */
 /* MOBILE */
 /* ========================= */
 
