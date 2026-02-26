@@ -29,11 +29,18 @@ header {
 
 .logo {
   text-decoration: none;
-  color: #fff;
+  color: #fff !important;
   font-size: 18px;
   letter-spacing: 10px;
   margin-bottom: 28px;
   display: inline-block;
+}
+
+.logo:visited,
+.logo:active,
+.logo:hover {
+  color: #fff !important;
+  text-decoration: none;
 }
 
 nav a {
