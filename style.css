@@ -142,7 +142,7 @@ nav a:hover {
 }
 
 /* ========================= */
-/* SERIES 12 */
+/* SERIES DISTANCES */
 /* ========================= */
 
 .series-page {
@@ -206,6 +206,26 @@ nav a:hover {
 
 .series-link:hover {
   opacity: 0.5;
+}
+
+/* ========================= */
+/* ABOUT */
+/* ========================= */
+
+.about-page {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+}
+
+.about-text {
+  max-width: 600px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.8;
+  letter-spacing: 1px;
 }
 
 /* ========================= */
