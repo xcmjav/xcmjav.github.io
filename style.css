@@ -72,7 +72,7 @@ nav a:hover {
 
 .moon {
   width: 100%;
-  animation: slowDrift 42s linear infinite;
+  aanimation: slowDrift 15s ease-in-out infinite alternate;
 }
 
 @keyframes slowDrift {
