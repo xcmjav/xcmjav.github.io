@@ -1,11 +1,15 @@
+/* ========================= */
 /* RESET */
+/* ========================= */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* ========================= */
 /* BASE */
+/* ========================= */
 body {
   background-color: #000;
   color: #fff;
@@ -14,7 +18,9 @@ body {
   overflow-x: hidden;
 }
 
+/* ========================= */
 /* HEADER */
+/* ========================= */
 header {
   width: 100%;
   padding: 40px 0 20px 0;
@@ -23,7 +29,7 @@ header {
 
 .logo {
   font-size: 18px;
-  letter-spacing: 8px;
+  letter-spacing: 10px;
   margin-bottom: 28px;
 }
 
@@ -40,9 +46,9 @@ nav a:hover {
   opacity: 0.5;
 }
 
-/* ---------------------- */
+/* ========================= */
 /* HOME */
-/* ---------------------- */
+/* ========================= */
 
 .home {
   height: calc(100vh - 120px);
@@ -52,13 +58,16 @@ nav a:hover {
   align-items: center;
 }
 
-/* MOON */
+/* ========================= */
+/* MOON CINEMATIC */
+/* ========================= */
 
 .moon-container {
-  width: 28vw;
-  max-width: 420px;
-  min-width: 260px;
+  width: 60vw;
+  max-width: 900px;
   overflow: hidden;
+  display: flex;
+  justify-content: flex-end; /* desplaza la luna a la derecha */
 }
 
 .moon {
@@ -66,16 +75,18 @@ nav a:hover {
   animation: slowZoom 45s linear infinite;
 }
 
-/* Cinematic slow drift */
+/* Deriva lenta y casi imperceptible */
 @keyframes slowZoom {
   from { transform: scale(1); }
-  to { transform: scale(1.06); }
+  to { transform: scale(1.03); }
 }
 
+/* ========================= */
 /* TEXT */
+/* ========================= */
 
 .series-info {
-  margin-top: 80px;
+  margin-top: 100px;
   text-align: center;
 }
 
@@ -86,19 +97,19 @@ nav a:hover {
 
 .series-subtitle {
   font-size: 30px;
-  letter-spacing: 10px;
-  margin-top: 14px;
+  letter-spacing: 12px;
+  margin-top: 18px;
 }
 
 .series-status {
   font-size: 13px;
-  opacity: 0.5;
-  margin-top: 18px;
+  opacity: 0.45;
+  margin-top: 20px;
 }
 
-/* ---------------------- */
+/* ========================= */
 /* GENERIC SERIES PAGE */
-/* ---------------------- */
+/* ========================= */
 
 .series {
   display: flex;
