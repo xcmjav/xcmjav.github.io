@@ -39,17 +39,15 @@
 </main>
 
 <script>
-  document.querySelectorAll("video").forEach(video => {
-    video.addEventListener("click", () => {
-      if (video.muted) {
-        video.muted = false;
-        video.volume = 1;
-        video.play();
-      } else {
-        video.muted = true;
-      }
+window.onload = function() {
+  var videos = document.getElementsByTagName("video");
+
+  for (var i = 0; i < videos.length; i++) {
+    videos[i].addEventListener("click", function() {
+      this.muted = !this.muted;
     });
-  });
+  }
+};
 </script>
 
 </body>
