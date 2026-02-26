@@ -72,15 +72,15 @@ nav a:hover {
 
 .moon {
   width: 100%;
-  aanimation: slowDrift 5s ease-in-out infinite alternate;
+  aanimation: slowDrift 45s ease-in-out infinite alternate;
 }
 
 @keyframes slowDrift {
   0% {
-    transform: scale(1) translateX(0px) translateY(0px);
+    transform: scale(1) translateX(0px);
   }
   100% {
-    transform: scale(1.96) translateX(-100px) translateY(3px);
+    transform: scale(1.04) translateX(-40px);
   }
 }
 /* ========================= */
