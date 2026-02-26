@@ -213,19 +213,26 @@ nav a:hover {
 /* ========================= */
 
 .about-page {
-  min-height: 80vh;
+  min-height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: flex-start;   /* no completamente centrado */
   justify-content: center;
-  padding: 80px 20px;
+  padding-top: 22vh;         /* empuja hacia abajo */
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .about-text {
-  max-width: 600px;
+  max-width: 520px;
   text-align: center;
-  font-size: 18px;
-  line-height: 1.8;
-  letter-spacing: 1px;
+  font-size: 16px;           /* más pequeño */
+  line-height: 2.2;          /* más aire */
+  letter-spacing: 1.5px;
+  opacity: 0.75;             /* menos contraste */
+}
+
+.about-text p {
+  margin-bottom: 60px;       /* mucho más espacio entre bloques */
 }
 
 /* ========================= */
