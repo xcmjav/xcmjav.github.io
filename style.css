@@ -72,15 +72,17 @@ nav a:hover {
 
 .moon {
   width: 100%;
-  animation: slowZoom 35s linear infinite;
+  animation: slowDrift 42s linear infinite;
 }
 
-/* Deriva lenta y casi imperceptible */
-@keyframes slowZoom {
-  from { transform: scale(1); }
-  to { transform: scale(1.06); }
+@keyframes slowDrift {
+  0% {
+    transform: scale(1) translateX(0px) translateY(0px);
+  }
+  100% {
+    transform: scale(1.06) translateX(-10px) translateY(3px);
+  }
 }
-
 /* ========================= */
 /* TEXT */
 /* ========================= */
