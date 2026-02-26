@@ -78,7 +78,7 @@ nav a:hover {
 /* Deriva lenta y casi imperceptible */
 @keyframes slowZoom {
   from { transform: scale(1); }
-  to { transform: scale(1.03); }
+  to { transform: scale(1.93); }
 }
 
 /* ========================= */
