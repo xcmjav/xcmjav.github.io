@@ -1,0 +1,59 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  width: 100%;
+  padding: 40px 0 20px 0;
+  text-align: center;
+}
+
+.logo {
+  font-size: 18px;
+  letter-spacing: 6px;
+  margin-bottom: 25px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 16px;
+  transition: opacity 0.3s ease;
+}
+
+nav a:hover {
+  opacity: 0.5;
+}
+
+/* Series layout */
+.series {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  text-align: center;
+}
+
+.series-number {
+  font-size: 14px;
+  opacity: 0.5;
+  margin-bottom: 15px;
+}
+
+.series-word {
+  font-size: 36px;
+  letter-spacing: 4px;
+}
