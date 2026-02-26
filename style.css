@@ -57,3 +57,52 @@ nav a:hover {
   font-size: 36px;
   letter-spacing: 4px;
 }
+
+/* HOME */
+
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.moon-container {
+  width: 320px;
+  overflow: hidden;
+}
+
+.moon {
+  width: 100%;
+  animation: slowZoom 45s linear infinite;
+}
+
+@keyframes slowZoom {
+  from { transform: scale(1); }
+  to { transform: scale(1.06); }
+}
+
+/* TEXT */
+
+.series-info {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.series-title {
+  font-size: 22px;
+  letter-spacing: 6px;
+}
+
+.series-subtitle {
+  font-size: 28px;
+  letter-spacing: 8px;
+  margin-top: 10px;
+}
+
+.series-status {
+  font-size: 14px;
+  opacity: 0.6;
+  margin-top: 12px;
+}
