@@ -28,9 +28,12 @@ header {
 }
 
 .logo {
+  text-decoration: none;
+  color: #fff;
   font-size: 18px;
   letter-spacing: 10px;
   margin-bottom: 28px;
+  display: inline-block;
 }
 
 nav a {
