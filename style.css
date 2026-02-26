@@ -207,3 +207,78 @@ nav a:hover {
 .series-link:hover {
   opacity: 0.5;
 }
+
+/* ========================= */
+/* MOBILE */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+  /* HEADER */
+  header {
+    padding: 30px 0 10px 0;
+  }
+
+  .logo {
+    font-size: 16px;
+    letter-spacing: 6px;
+  }
+
+  nav a {
+    margin: 0 12px;
+    font-size: 13px;
+  }
+
+  /* HOME */
+  .moon-container {
+    width: 80vw;
+    max-width: none;
+  }
+
+  .series-info {
+    margin-top: 6vh;
+    padding: 0 20px;
+  }
+
+  .series-title {
+    font-size: 18px;
+    letter-spacing: 6px;
+  }
+
+  .series-subtitle {
+    font-size: 22px;
+    letter-spacing: 8px;
+  }
+
+  .series-status {
+    font-size: 12px;
+  }
+
+  /* SERIES PAGE */
+  .frame {
+    padding: 60px 20px;
+  }
+
+  .frame img {
+    max-width: 90vw;
+    max-height: 70vh;
+  }
+
+  .word {
+    font-size: 16px;
+    letter-spacing: 6px;
+    margin-top: 40px;
+  }
+
+  /* WORKS */
+  .works-title {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+
+  .series-link {
+    font-size: 22px;
+    letter-spacing: 6px;
+  }
+
+}
