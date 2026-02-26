@@ -236,6 +236,39 @@ nav a:hover {
 }
 
 /* ========================= */
+/* CONTACT */
+/* ========================= */
+
+.contact-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 28vh;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.contact-text {
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 2.4;
+  opacity: 0.7;
+}
+
+.contact-text a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  transition: opacity 0.3s ease;
+}
+
+.contact-text a:hover {
+  opacity: 0.5;
+}
+
+/* ========================= */
 /* MOBILE */
 /* ========================= */
 
