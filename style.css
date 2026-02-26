@@ -130,3 +130,33 @@ nav a:hover {
   font-size: 36px;
   letter-spacing: 4px;
 }
+
+/* ========================= */
+/* SERIES 12 */
+/* ========================= */
+
+.series-page {
+  width: 100%;
+}
+
+.frame {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.frame img {
+  max-width: 70vw;
+  max-height: 75vh;
+  object-fit: contain;
+}
+
+.word {
+  margin-top: 60px;
+  font-size: 20px;
+  letter-spacing: 8px;
+  opacity: 0.6;
+}
